@@ -1,9 +1,10 @@
-package src.Listeners;
+package Listeners;
 
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
 @Listeners(CustomListener.class)
 public class ListenerTest {
     @Test

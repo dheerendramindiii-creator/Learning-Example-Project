@@ -1,4 +1,4 @@
-package src;
+package paralleltesting;
 
 import org.testng.annotations.DataProvider;
 
