@@ -2,10 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
 
-
-    <test name="Listener Test">
+    <test name="Listener Test" enabled="false">
         <classes>
             <class name="Listeners.ListenerTest"/>
+        </classes>
+    </test>
+
+    <test name="Parallel Test" thread-count="2" enabled="true">
+        <classes>
+            <class name="paralleltesting.ParallelTest1"/>
+            <class name="paralleltesting.ParallelTest2"/>
         </classes>
     </test>
 </suite>
