@@ -1,5 +1,4 @@
 import org.testng.annotations.Test;
-import src.CustomDataProvider;
 
 public class DataProviderExample {
 
